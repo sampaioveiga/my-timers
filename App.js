@@ -10,7 +10,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.appContainer}>
         <View style={styles.titleContainer}>
-          <Text style={styles.title}>Timers</Text>
+          <Text style={styles.title}>Temporizadores</Text>
         </View>
         <ScrollView style={styles.timerList}>
           <ToggleableTimerForm isOpen={false} />
