@@ -13,10 +13,10 @@ export default function Timer({ title, project, elapsed }) {
       <Text>{project}</Text>
       <Text style={styles.elapsedTime}>{elapsedString}</Text>
       <View style={styles.buttonGroup}>
-        <TimerButton color="blue" small title="Editar" />
-        <TimerButton color="blue" small title="Remover" />
+        <TimerButton color="blue" small title="Edit" />
+        <TimerButton color="blue" small title="Remove" />
       </View>
-      <TimerButton color="#21BA45" title="Iniciar" />
+      <TimerButton color="#21BA45" title="Start" />
     </View>
   );
 }
